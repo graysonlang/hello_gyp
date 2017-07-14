@@ -1,0 +1,30 @@
+# Build folder
+/build/
+
+# Unix editor (e.g. emacs, vi, etc.) temp files.
+*~
+
+# Compiled Python files.
+*.pyc
+
+# macOS Finder "Desktop Services Store" database files.
+.DS_Store
+
+# macOS "AppleDouble" format resource payload.
+._*
+
+# Windows image thumbnail database files.
+Thumbs.db
+
+# Xcode projects.
+**/*.xcodeproj/**
+
+# Visual Studio cached settings.
+/.vs/
+
+# Visual Studio "Intermediate Pre-Compiled Header" files/
+*.ipch
+
+# Visual Studio "Solution User Options" files.
+# https://msdn.microsoft.com/en-us/library/bb165909.aspx
+*.suo
