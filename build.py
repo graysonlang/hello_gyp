@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 
@@ -9,4 +9,4 @@ sys.path.append("scripts")
 sys.argv = [script] + sys.argv[1:]
 
 # Call build script file.
-execfile(script)
+exec(open(script).read())
